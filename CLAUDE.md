@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Hermes Agent is a self-improving AI agent by Nous Research. This is a **read-only reference clone** — not installed, not forked for production use.
 
-**Status: ARCHIVED.** The security-hardening fork plan (`docs/plans/security-hardening-refactor.md`) was evaluated and dropped. The existing stack (Claude Code + NemoClaw/OpenClaw on openclaw-gs + claw-relay + osm MCP + shux) already covers every hermes capability. No redundant agent framework needed.
+**Status: ARCHIVED.** The security-hardening fork plan (`docs/plans/security-hardening-refactor.md`) was evaluated and dropped. The existing stack (Claude Code + NemoClaw/OpenClaw on claw-relay + osm MCP + shux) already covers every hermes capability. No redundant agent framework needed.
 
 **Why this repo is kept:** Reference source for cherry-picking patterns into OpenClaw:
 - `gateway/platforms/telegram.py` — polished Telegram adapter (chunking, files, voice, inline keyboards)
